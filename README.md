@@ -49,8 +49,10 @@ DETAILS
   ->Our application will take help of the gyroscopic and various required sensors of the
     smartphone to sense a randomized set of vibrations for a abnormally long period of time like
     3-4 seconds and then accordingly notify the user of the earthquake.
+    
   ->The application then gives all the precautions to be taken by the user during the time of the 
     calamity like:-
+    
             --Vacate to an open area alongwith anyone who is surrounding you.
             --Call government emergency numbers like ambulance, fire brigade,etc.
             --Call and warn dear ones who may be near you.
@@ -60,8 +62,10 @@ DETAILS
     images or by broadcasting alerts to the nearby people to take precautionary measures and also to 
     notify the people and government to unblock/open as many possible draining or sewage systems as 
     possible.
+    
   ->The application then gives all the precautions to be taken by the user during the time of the 
     calamity like:- 
+    
             --Vacate to places where water cannot stay easily like high rise buildings or open fields. 
             --Call government emergency numbers like ambulance, etc.
             --Call and warn dear ones who may be near you.
