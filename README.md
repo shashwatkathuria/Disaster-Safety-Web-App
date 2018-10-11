@@ -54,7 +54,9 @@ DETAILS
     calamity like:-
     
             --Vacate to an open area alongwith anyone who is surrounding you.
+            
             --Call government emergency numbers like ambulance, fire brigade,etc.
+            
             --Call and warn dear ones who may be near you.
 --FLOOD--
 
@@ -66,11 +68,16 @@ DETAILS
   ->The application then gives all the precautions to be taken by the user during the time of the 
     calamity like:- 
     
-            --Vacate to places where water cannot stay easily like high rise buildings or open fields. 
+            --Vacate to places where water cannot stay easily like high rise buildings or open fields.
+            
             --Call government emergency numbers like ambulance, etc.
+            
             --Call and warn dear ones who may be near you.
+            
             --Open as many unclosed sewage and drainage systems as possible in the surrounding area.
+            
             --Wear air jackets so that no one drowns.
+            
 --HURRICANE--
 
   ->Our application will take help of the government agencies and common people near the calamity area 
@@ -78,7 +85,9 @@ DETAILS
   ->The application then gives all the precautions to be taken by the user during the time of the 
     calamity like:-
             --Vacate to a building alongwith anyone who is surrounding you.
+            
             --Call government emergency numbers like ambulance, fire brigade,etc.
+            
             --Call and warn dear ones who may be near you.
             
 ------------------------------------------------------------------------------------------------------------
