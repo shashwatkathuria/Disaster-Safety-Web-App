@@ -23,7 +23,7 @@ earthquakes, floods and hurricanes by getting alerts from anyone who gets
 to know of the calamity quickly by getting a notification in the form of
 images posted online or any common text broadcasts according to their 
 location.In addition to this , in the case of earthquake, our application
-will make use of the gyroscopic sensors of the smartphone of the user according
+will make use of the gyroscopic sensor and accelerometer of the smartphone of the user according
 to the time duration of random vibrations sensed in a continuous period of time.
 Once the user is informed of the calamity, the user follows the emergency steps to be 
 taken during the time of the calamity.We also incorporate government agencies 
@@ -39,7 +39,7 @@ notify in case of an incoming danger.
 In all, the alertness and conciousness of the people and government agencies 
 near the calamity area can help to broadcast the calamities like hurricanes and
 floods while earthquakes can also be known of by the same alongwith the help of the 
-gyroscopic sensors and other sensors in a smartphone.
+gyroscopic sensor and accelerometer in a smartphone.
    
 ----------------------------------------------------------------------------------
 DETAILS
