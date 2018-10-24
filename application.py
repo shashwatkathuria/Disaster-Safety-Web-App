@@ -147,5 +147,3 @@ def viewcommonalerts():
         alerts.append(s)
     return render_template("view.html",rows=alerts,alert="COMMON ALERTS")
 
-if __name__ == '__main__':
-  app.run()
