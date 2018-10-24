@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    {{ alert }}
+{% endblock %}
+{% block main %}
+    <table class="table table-striped">
+        <ttitle><h5>{{alert}}</h5></ttitle>
+        <thead>
+            <tr>
+                <th>Date And Time</th>
+                <th>Location</th>
+                <th>Calamity</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for row in rows %}
+                <tr>
+                    <td>{{ row.datetime }}</td>
+                    <td>{{ row.location }}</td>
+                    <td>{{ row.calamity }}</td>
+                    <td>{{ row.description }}</td>
+                </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    <p>        </p>
+
+{% endblock %}
