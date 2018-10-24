@@ -146,3 +146,6 @@ def viewcommonalerts():
         s = {"datetime":w1[1],"location":w1[3],"calamity":w1[2],"description":w1[4]}
         alerts.append(s)
     return render_template("view.html",rows=alerts,alert="COMMON ALERTS")
+
+if __name__ == '__main__':
+  app.run()
