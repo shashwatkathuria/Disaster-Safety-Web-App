@@ -9,7 +9,7 @@ from werkzeug.security import check_password_hash, generate_password_hash
 
 import sqlite3
 
-conn = sqlite3.connect('alerts.db')
+conn = sqlite3.connect('alerts.db',check_same_thread=False)
 db = conn.cursor()
 
 # Configure application
@@ -140,3 +140,5 @@ def viewcommonalerts():
         s = {"datetime":w1[1],"location":w1[3],"calamity":w1[2],"description":w1[4]}
         alerts.append(s)
     return render_template("view.html",rows=alerts,alert="COMMON ALERTS")
+
+app.run(host='0.0.0.0',port=80,debug=True)
