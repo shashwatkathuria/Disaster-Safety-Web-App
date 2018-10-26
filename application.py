@@ -47,14 +47,14 @@ def commonalerts():
         db.execute("INSERT INTO commonalerts (calamity,location,description) VALUES (?,?,?)",
                        (c,l,d))
         conn.commit()
-        return jsonify(s)
+        return "Alert Issued Successfully.",200
     else:
         return render_template("alerts.html")
 
 @app.route("/getcommonalerts")
 
 def getcommonalerts():
-
+    
     alerts=[]
     w = db.execute("SELECT * FROM commonalerts ORDER BY id DESC ")
     for w1 in w:
@@ -95,7 +95,7 @@ def govtalerts():
         db.execute("INSERT INTO govtalerts (calamity,location,description) VALUES (?,?,?)",
                        (c,l,d))
         conn.commit()
-        return jsonify(s)
+        return "Alert Issued Successfully.",200
     else:
         return render_template("govtalerts.html")
 
@@ -110,14 +110,14 @@ def getgovtalerts():
         alerts.append(s)
     return jsonify(alerts)
 
-@app.route("/generateids")
+#@app.route("/generateids")
 
-def generateids():
-    usernames=["earthquakeagencyofindia","hurricaneagencyofindia","floodagencyofindia","disastermanagementagencyofindia"]
-    passwords=["eaoi","haoi","faoi","dmaoi"]
+# def generateids():
+#     usernames=["earthquakeagencyofindia","hurricaneagencyofindia","floodagencyofindia","disastermanagementagencyofindia"]
+#     passwords=["eaoi","haoi","faoi","dmaoi"]
 
-    for i in range(4):
-        db.execute("INSERT INTO govtids (username,password) VALUES (?,?)",(usernames[i],generate_password_hash(passwords[i])))
+#     for i in range(4):
+#         db.execute("INSERT INTO govtids (username,password) VALUES (?,?)",(usernames[i],generate_password_hash(passwords[i])))
 
 @app.route("/viewgovtalerts")
 
@@ -128,7 +128,7 @@ def viewgovtalerts():
     for w1 in w:
         s = {"datetime":w1[1],"location":w1[3],"calamity":w1[2],"description":w1[4]}
         alerts.append(s)
-    return render_template("view.html",rows=alerts,alert="GOVT. ISSUED ALERTS")
+    return render_template("view.html",rows=alerts,alert="Government Issued Alerts")
 
 @app.route("/viewcommonalerts")
 
@@ -139,6 +139,6 @@ def viewcommonalerts():
     for w1 in w:
         s = {"datetime":w1[1],"location":w1[3],"calamity":w1[2],"description":w1[4]}
         alerts.append(s)
-    return render_template("view.html",rows=alerts,alert="COMMON ALERTS")
+    return render_template("view.html",rows=alerts,alert="Common Alerts")
 
 app.run(host='0.0.0.0',port=80,debug=True)
