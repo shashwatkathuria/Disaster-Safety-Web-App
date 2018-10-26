@@ -26,7 +26,10 @@ def after_request(response):
     response.headers["Pragma"] = "no-cache"
     return response
 
+@app.route("/")
 
+def menu():
+    return render_template("menu.html")
 
 
 
