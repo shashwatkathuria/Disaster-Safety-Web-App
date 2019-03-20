@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------
-# INDIAN INSTITUTE OF TECHNOLOGY , JODHPUR
+# Disaster Safety Web Application
 -------------------------------------------------------------------------
 BASIC IDEA
 -------------------------------------------------------------------------
@@ -32,7 +32,7 @@ gyroscopic sensor and accelerometer in a smartphone.
 DETAILS
 ----------------------------------------------------------------------------------
 
-## EARTHQUAKE
+### EARTHQUAKE
 
   - Our application will take help of the gyroscopic and various required sensors of the
     smartphone to sense a randomized set of vibrations for a abnormally long period of time like
@@ -46,7 +46,7 @@ DETAILS
             --Call government emergency numbers like ambulance, fire brigade,etc.
             
             --Call and warn dear ones who may be near you.
-## FLOOD
+### FLOOD
 
   - Our application will take help of the people around the flood area to notify them either by taking 
     images or by broadcasting alerts to the nearby people to take precautionary measures and also to 
@@ -66,7 +66,7 @@ DETAILS
             
             --Wear air jackets so that no one drowns.
             
-## HURRICANE
+### HURRICANE
 
   - Our application will take help of the government agencies and common people near the calamity area 
     to notify them in case of incoming hurricane situations.
